@@ -3,8 +3,24 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>Game Framework</title>-->
+
     <title>Simple RPG</title>
     <link rel="stylesheet" href="style.css" />
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            background: #1e1e1e; /* fallback color */
+        }
+
+        canvas {
+            display: block;
+            margin: 0 auto;
+            background: linear-gradient(180deg, #3a3a3a 0%, #1e1e1e 100%);
+        }
+    </style>
 </head>
 <body>
     <canvas id="gameCanvas" width="800" height="600"></canvas>
